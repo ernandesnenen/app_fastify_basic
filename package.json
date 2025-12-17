@@ -9,7 +9,7 @@
   "type": "module",
   "scripts": {
     "dev": "tsx watch src/server.ts",
-    "knex": "node --import tsx ./node_modules/knex/bin/cli.js",
+    "knex": "node --import tsx ./node_modules/knex/bin/cli",
     "lint": "eslint src --ext .ts --fix",
     "test": "vitest",
     "build": "tsup src --out-dir build"
